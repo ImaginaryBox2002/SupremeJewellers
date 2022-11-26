@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Jewellery">
+    <meta name="keywords" content="Bracelets, Necklaces, Earrings, Rings, Gold, Diamond, Jewellery ">
+    <meta name="author" content="Sandeep Hari">
+ 
+    <title>Supreme Jewellers - Contact Us</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link href="images/Supreme.ico" rel="shortcut icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script>
+        function validateForm() {
+            // since we are using HTML's embedded validation 
+            // we might not need to do this
+          let x = document.forms["myForm"]["fname"].value;
+          if (x == "") {
+            alert("Name must be filled out");
+            return false;
+          }
+          // the same can be said for the phone number 
+          // and the email formats - they are validated in the HTML code 
+        }
+        </script>
+
+</head>
+
+<body> 
+
+<br>
+
+
+
+
+<header>
+
+    <a href="index.html" class="logo"><img src="images/Supreme_header.png"> </a>
+
+    <input type="checkbox" id="menu-bar">
+    <label for="menu-bar">Menu</label>
+
+    <nav class="navbar">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="products.html">Products ▼ </a>
+                <ul>
+
+                    <li><a href="bracelets.html"> Bracelets </a></li>
+                    <li><a href="necklaces.html"> Necklaces </a></li>
+                    <li><a href="earrings.html"> Earrings </a></li>
+                    <li><a href="rings.html"> Rings </a></li>
+
+                </ul>
+            </li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+           
+        </ul>
+
+    </nav>
+
+</header>
+<body>
+<br>
+<br>
+<br>
+
+	
+<div class="contactForm"></div>
+
+<form id="CommentForm" action="contact-display.html" method="get">
+    <h2> Contact Us </h2>
+    <br>
+    <hr color="black" size="1px">
+    <br>
+    <br>
+    <h4>Address</h4>
+    <br>Shop no. 186, 
+    <br>2nd Floor,
+    <br> 83 Rivonia Rd, Sandhurst,
+    <br>Sandton City
+    <br> Johannesburg, South Africa
+    <br>
+    <br>
+    <img src="images/Phone.png" > Tel: +27 83 123 4567   
+    <br><img src="images/whatsapp-logo.jpg" > <a href="https://wa.me/27813413986"> +27 83 123 4567 </a>
+    <br><img src="images/email.png" > <a href="mailto:SJ@gmail.com">SJ@gmail.com</a>
+    <br>
+    <br>
+    <div class="contactForm">
+
+        
+
+        <form>      
+            <div class="half">
+            <div class="item">
+                <label for="name">NAME</label>
+                <input type="text" id = "name" name="name" required oninvalid="this.setCustomValidity('Please Enter Your Full Name Here')" oninput="this.setCustomValidity('')"/>
+              </div>
+
+              
+
+              <div class="item">
+                <label for="mobile">CONTACT NUMBER</label>
+                <input type="tel" id="mobile" name="mobile" placeholder="123 456 6978" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" required oninvalid="this.setCustomValidity('Please Enter Phone Number in the following format 123 456 6978 with spaces as displayed')" oninput="this.setCustomValidity('')"/>
+                <small>Format: 123 456 6978</small>
+              </div>
+              
+              <div class="item">
+                <label for="email">EMAIL ADDRESS</label>
+                <input type="email" id="email" name="email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$" required oninvalid="this.setCustomValidity('Please Enter correct Emaill Address incuding the @ and .')" oninput="this.setCustomValidity('')"/>
+              </div>
+              </div>
+              
+              <div class="full">
+
+                <label for="enquiry">MESSAGE</label>
+                <textarea id ="enquiry" name="enquiry" required oninvalid="this.setCustomValidity('Please Enter your MESSAGE to us')" oninput="this.setCustomValidity('')"></textarea> 
+                
+              </div>
+
+              <div class="action">
+                <input type="submit" value = "SEND MESSAGE">
+                <input type="reset" value = "RESET">
+              </div> 
+              
+              <div class="container-Map">
+
+                <br><!-- Title: google-map-generator
+                    Author:	N/A
+                    Date: 6 April 2022
+                    Code version: N/A
+                    Type: Map
+                    Availability: https://google-map-generator.com/ -->
+                    <div id="iframe">
+                        <div class="mapouter" style="height: 350px; top: 20px; bottom: 20px;">
+                            <div class="gmap_canvas" style="height: 495px">
+
+                                <iframe id="gmap_canvas"  frameborder="0" height="350" marginheight="0" marginwidth="0" scrolling="no" src="https://maps.google.com/maps?q=Sandton_City,_South_Africa&amp;t=k&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="350">
+                                </iframe>
+
+                            </div>
+                        </div>
+                    </div>       
+                </div>
+                                <br>
+
+             </div>   
+
+              <section id="footer">
+            
+                <br>
+                <hr>
+                <br>
+                <div class="icons">
+    
+                    
+                    <P>
+                    <a href="Tel: +27 83 123 4567 " class="fa fa-phone"></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/supremejewelleryco/" class="fa fa-instagram"></a>&nbsp;&nbsp;
+                    <a href="https://wa.me/27813413986" class="fa fa-whatsapp"></a>&nbsp;&nbsp;
+                    <a href="mailto:SJ@gmail.com" class="fa fa-envelope"></a>&nbsp;&nbsp;
+                </P>
+                
+                    <br>
+    
+                    <P>© 2022 SUPREME JEWELLERS | ALL RIGHTS RESERVED | DEVELOPED BY : SANDEEP HARI </P>
+                     
+                    
+                </div>
+                <br>
+                <hr>
+            </section>  
+        </div>
+        </form>
+        <section id="footer">
+            
+            <br>
+            
+            <br>
+            
+            <br>
+            
+        </section>  
+      
+
+
+</body>
+</html>

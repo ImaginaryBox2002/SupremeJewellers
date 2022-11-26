@@ -1,0 +1,987 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courgette', cursive;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body
+
+{
+    background: url(../images/bg.jpg) no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(39, 40, 74);
+    font-size: large;
+}
+
+
+p {
+  text-align: center;
+}
+.footer
+
+{
+
+  text-align: center;
+
+}
+.container
+{
+
+  background: rgba(142,209,187,0.90);
+  width: 920px;
+  margin: 80px auto;
+  max-width: 97%;
+  border-radius: 4px;
+  padding: 55px 30px;
+
+}
+
+.container img 
+
+{
+
+ 
+  text-align: center;
+ 
+  
+}
+  
+
+
+.mainbody
+
+{
+
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+ul
+
+{
+  
+}
+header /* Title: Simple Responsive Dropdown Navigation Menu Using Pure HTML And CSS Only
+          Author: Mr. Web Designer
+          Date: 14 June 2022
+          Code version: HTML5 + CSS3
+          Availablity: https://www.youtube.com/watch?v=bk3Y4heVdFs
+        */ 
+
+{
+
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: rgb(142,209,187);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 0px 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+header .logo
+
+{
+
+    font-weight: bolder;
+    font-size: 25px;
+    color: rgb(39, 40, 74);
+
+}
+
+header .navbar ul
+
+{
+
+    list-style: none;
+
+}
+
+header .navbar ul li
+
+{
+
+    position: relative;
+    float: left;
+
+}
+
+header .navbar ul li a
+
+{
+
+    font-size: 20px;
+    padding: 20px;
+    color: #333;
+    display: block;
+
+}
+
+header .navbar ul li a:hover
+
+{
+
+    background: turquoise;
+    color: rgb(39, 40, 74);
+
+}
+
+header .navbar ul li ul
+
+{
+
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: rgb(142,209,187);
+    display: none;
+
+}
+
+header .navbar ul li ul li
+
+{
+
+    width: 100%;
+    border-top: 1px solid rgb(39, 40, 74);
+
+}
+
+header .navbar ul li ul li ul
+
+{
+
+    left: 200px;
+    top: 0;
+
+}
+
+header .navbar ul li:hover > ul
+
+
+{
+
+    display: initial;
+
+}
+
+#menu-bar
+
+{
+
+    display: none;
+
+}
+
+header label
+
+{
+
+    font-size: 20px;
+    color: rgb(39, 40, 74);
+    cursor: pointer;
+    display: none;
+
+}
+
+.icons a{
+  border: 1px solid rgb(39, 40, 74);
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 600;
+  width: 38px;
+  margin-right: 10px;
+  
+}
+
+form{                                   /* Title: Create a Responsive Transparent Contact Form using HTML & CSS
+                                          Author: David G Tech
+                                          Date: 14 June 2022
+                                          Code version: HTML5 + CSS3
+                                          Availablity: https://youtu.be/p_QjYcQV1Bc
+                                        */ 
+   
+  background: rgba(142,209,187,0.90);
+  width: 920px;
+  margin: 80px auto;
+  max-width: 97%;
+  border-radius: 4px;
+  padding: 55px 30px;
+  
+}
+
+form .title h2{
+  letter-spacing: 6px;
+  border-bottom: 1px solid rgb(39, 40, 74);
+  display: inline-block;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
+form .half{
+  display: flex;
+  justify-content: space-between;
+}
+
+form .half .item{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 48%;
+  padding:2%;
+}
+
+form label{
+  display: block;
+  font-size: 13px;
+  letter-spacing: 3.5px;
+  margin-bottom: 16px;
+  
+}
+
+form .half .item input{
+  border-radius: 4px;
+  border: 1px solid rgb(39, 40, 74);
+  outline: 0;
+  padding: 16px;
+  width: 100%;
+  height: 44px;
+  background: transparent;
+  font-size: 17px;
+  
+}
+
+
+
+form .full{
+  margin-bottom: 24px;
+}
+
+form .full textarea{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid rgb(39, 40, 74);
+  outline: 0;
+  padding: 12px 16px;
+  width: 100%;
+  height: 200px;
+  font-size: 17px;
+}
+
+form .action{
+  margin-bottom: 32px;
+}
+
+form .action input{
+  background: transparent;
+  border-radius: 4px;
+  border: 1px solid rgb(39, 40, 74);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  height: 44px;
+  letter-spacing: 3px;
+  outline: 0;
+  padding: 0 20px 0 22px;
+  margin-right: 10px;
+}
+
+form .action input[type="submit"]{
+  background: turquoise;
+  color: rgb(39, 40, 74);
+}
+
+form .icons a{
+  border: 1px solid rgb(39, 40, 74);
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 600;
+  width: 38px;
+  margin-right: 10px;
+  
+}
+
+
+form .half .item input:focus, form .full textarea:focus, form .action input[type="reset"]:hover, form .icons a:hover{
+  background: rgba(255,255,255,0.075);
+}
+
+.mapouter {                       /* <a href="https://www.embedgooglemap.net">google map link for website</a> */
+position:relative;
+text-align: center;
+height: 500px;
+width: 350px;
+Display: flex; 
+ Justify-content: Center; 
+ align-items: center;
+ text-align: center;
+ 
+}
+
+.gmap_canvas {
+overflow: hidden;
+background: none!important;
+height: 500px;
+width: 500px;
+Display: flex; 
+ Justify-content: Center; 
+ align-items: center;
+ text-align: center;
+ 
+
+}
+
+.iframe
+
+{
+
+ Display: flex; 
+ Justify-content: Center; 
+ align-items: center;
+ text-align: center;
+ 
+
+}
+
+/* BEGIN CSS FOR MAIN PAGES */
+
+
+html
+
+ {
+
+   background-color:  rgb(180, 224, 209);
+
+ }
+ 
+
+ .content
+ 
+ {
+
+    text-align: left;
+    
+ }
+
+ 
+ .container .content  h1
+ 
+ {
+
+    text-align: center;
+    
+ }
+
+ .container .content p
+ 
+ {
+
+    text-align: center;
+    
+ }
+ .content p
+
+ {
+
+    text-align: left;
+    
+
+ }
+ 
+ 
+ .Subheading
+
+{
+
+  
+  text-align: center;
+  border: solid;
+
+}
+
+.Picture
+
+  {
+
+   text-align: center;
+
+  }
+
+  .grid-container                         /* Title: CSS Grid Container
+                                              Author: w3schools
+                                              Date: 10 June 2022
+                                              Code version: HTML5 and CSS3
+                                              Availablity: https://www.w3schools.com/css/css_grid_container.asp
+                                          */                       
+
+  {
+      display: grid;
+      grid-template-columns: auto auto ;
+      padding: 5px;
+      
+      
+   }
+
+   .grid-container-bracelets
+
+   {
+
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    padding: 5px;
+
+
+   }
+
+   .grid-container a
+
+  {
+
+      text-decoration: none;
+      
+      
+}
+
+   
+   
+ .grid-item 
+
+ {
+      background-color: rgba(142,209,187,0.90);
+      border: 1px solid rgb(39, 40, 74);
+      padding: 0px;
+      font-size: 30px;
+      text-align: center;
+      
+
+ }
+
+ .grid-item img
+
+ {  
+      padding: 15px;
+      font-size: 30px;
+      text-align: center;
+      width: 95%;
+      height: 95%;
+
+ }
+ 
+ hr
+
+ {
+
+   color: rgb(97, 88, 74);
+
+ }
+
+ 
+ .products 
+
+ {
+
+   background-color: rgb(142,209,187);
+   color: rgb(39, 40, 74);
+   border: none;
+   cursor: pointer;
+   font-family: 'Dancing Script', cursive;
+   font-size: 35px;
+   text-align: right;
+   text-transform: uppercase;
+
+ }
+
+ .products a
+
+ {
+
+   background-color: rgb(142,209,187);
+   color: rgb(39, 40, 74);
+   border: none;
+   cursor: pointer;
+   font-family: 'Dancing Script', cursive;
+   font-size: 35px;
+   text-align: right;
+   text-transform: uppercase;
+
+ }
+ 
+ .bracelets {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+ 
+
+.PictureGrid 
+
+{
+
+  display: grid;                                                                            
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: px;
+  grid-row-gap: px;
+  padding: 2%;
+  
+
+  
+  
+}
+
+/* BEGIN Bracelet Picture Test */
+
+  
+.picture-grid-item 
+
+{
+     background-color: rgba(142,209,187,0.90);
+     border: 1px solid rgb(39, 40, 74);
+     padding: 0px;
+     font-size: 30px;
+     text-align: center;
+}
+
+.picture-grid-item img
+
+{  
+     padding: 15px;
+     font-size: 30px;
+     text-align: center;
+     
+
+}
+
+hr
+
+{
+
+  color: rgb(97, 88, 74);
+
+}
+/* END Bracelit Picture Test */
+
+
+body.lb-disable-scrolling {
+  overflow: hidden;
+}
+
+.lightboxOverlay {                      /* Title: LIGHTBOX - Interactive Image Presentation
+                                            Author: Lokesh Dhakar
+                                            Date: 31 May 2022
+                                            Code version: lightbox2-2.11.3
+                                            Availablity: https://lokeshdhakar.com/projects/lightbox2/
+                                        */                                                 
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+  outline: none;
+}
+
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 3px;
+
+  /* Image border */
+  border: 4px solid rgb(39, 40, 74)e;
+}
+
+.lightbox a img {
+  border: none;
+}
+
+.lb-outerContainer {
+  position: relative;
+  *zoom: 1;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border-radius: 4px;
+
+  /* Background color behind image.
+     This is visible during transitions. */
+  background-color: rgb(39, 40, 74);
+}
+
+.lb-outerContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-loader {
+  position: absolute;
+  top: 43%;
+  left: 0;
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  line-height: 0;
+}
+
+.lb-cancel {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin: 0 auto;
+  background: url(../images/loading.gif) no-repeat;
+}
+
+.lb-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
+
+.lb-container > .nav {
+  left: 0;
+}
+
+.lb-nav a {
+  outline: none;
+  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==');
+}
+
+.lb-prev, .lb-next {
+  height: 100%;
+  cursor: pointer;
+  display: block;
+}
+
+.lb-nav a.lb-prev {
+  width: 34%;
+  left: 0;
+  float: left;
+  background: url(../images/prev.png) left 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-prev:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-nav a.lb-next {
+  width: 64%;
+  right: 0;
+  float: right;
+  background: url(../images/next.png) right 48% no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  -webkit-transition: opacity 0.6s;
+  -moz-transition: opacity 0.6s;
+  -o-transition: opacity 0.6s;
+  transition: opacity 0.6s;
+}
+
+.lb-nav a.lb-next:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.lb-dataContainer {
+  margin: 0 auto;
+  padding-top: 5px;
+  *zoom: 1;
+  width: 100%;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.lb-dataContainer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lb-data {
+  padding: 0 4px;
+  color: #ccc;
+}
+
+.lb-data .lb-details {
+  width: 85%;
+  float: left;
+  text-align: left;
+  line-height: 1.1em;
+}
+
+.lb-data .lb-caption {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.lb-data .lb-caption a {
+  color: #4ae;
+}
+
+.lb-data .lb-number {
+  display: block;
+  clear: left;
+  padding-bottom: 1em;
+  font-size: 12px;
+  color: #999999;
+}
+
+.lb-data .lb-close {
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  background: url(../images/close.png) top right no-repeat;
+  text-align: right;
+  outline: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+}
+
+.lb-data .lb-close:hover {
+  cursor: pointer;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+/* END CSS FOR MAIN PAGES */
+
+.tymsg 
+
+{
+
+  text-align: center;
+  
+
+}
+
+/* start of new drop down menu */
+
+
+                                        /* Title: CSS / select with SVG arrow as background image 
+                                            Author: Henning Fischer
+                                            Date: 04 July 2022
+                                            Code version: HTML5 and CSS3
+                                            Availablity: https://codepen.io/herrfischer/pen/aNpWwy
+                                            Comment: Order Dropdown Menu Products on order.html
+                                        */    
+
+select {
+  width: 300px;
+  padding: 12px;
+   border-style: solid ;
+   border-color: rgb(39, 40, 74);
+  background-color: rgb(142,209,187);
+  text-align: center;
+  font-size: large;
+  
+  /* needed */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* SVG background image */
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%20viewBox%3D%220%200%2012%2012%22%3E%3Ctitle%3Edown-arrow%3C%2Ftitle%3E%3Cg%20fill%3D%22%23000000%22%3E%3Cpath%20d%3D%22M10.293%2C3.293%2C6%2C7.586%2C1.707%2C3.293A1%2C1%2C0%2C0%2C0%2C.293%2C4.707l5%2C5a1%2C1%2C0%2C0%2C0%2C1.414%2C0l5-5a1%2C1%2C0%2C1%2C0-1.414-1.414Z%22%20fill%3D%22%23000000%22%3E%3C%2Fpath%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    background-size: .6em;
+    background-position: calc(100% - 1.3em) center;
+    background-repeat: no-repeat;
+}
+select::-ms-expand {
+    display: none;
+}
+
+/*end of new css dropdown menu */
+
+@media(max-width:991px)
+
+{
+
+    header 
+
+    {
+
+        padding: 20px;
+
+    }
+
+    header label
+    
+    {
+
+        display: initial;
+
+    }
+
+    header .navbar
+    
+    {
+
+        position: absolute;
+        top: 100%; left: 0; right: 0;
+        background: rgb(142,209,187);
+        border-top: 1px solid rgb(39, 40, 74);
+        display: none;
+
+    }
+
+
+    header .navbar ul li
+
+    {
+
+        width: 100%;
+
+    }
+
+    header .navbar ul li ul
+
+    {
+
+        position: relative;
+        width: 100%;
+
+    }
+
+    header .navbar ul li ul li
+
+    {
+
+        background: rgb(142,209,187);
+
+    }
+
+    header .navbar ul li ul li ul
+
+    {
+
+        width: 100%;
+        left: 0;
+
+    }
+
+    #menu-bar:checked ~ .navbar
+    
+    {
+
+        display: initial;
+
+    }
+/* BEGIN MEDIA CSS FROM OLD */
+
+
+    .Subheading
+  
+    {
+  
+      display: fixed;
+      float: none;
+      position: relative;
+  
+    }
+  
+    .footer img 
+
+    {
+
+        display: inline;
+        width: 2%;
+        height: 2%;
+              
+    }
+
+    .PictureGrid
+  
+    
+  {
+  
+     display:inline
+     
+     
+     
+  }  
+
+  .gif img
+  
+    
+  {
+  
+     display:inline    
+     
+  }  
+
+  .grid-container
+
+  {
+
+    display: inline;
+
+  }
+ 
+  
+  form .half{
+    flex-direction: column;
+  }
+  form .half .item{
+    width: 100%;
+  }
+  form .action{
+    display: flex;
+    flex-direction: column;
+  }
+  form .action input{
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+    footer
+  
+    {
+  
+        text-align: center;
+  
+    }
+
+/* END MEDIA CSS FROM OLD */
+
+  }
